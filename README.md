@@ -72,4 +72,19 @@ yarn preview
 bun run preview
 ```
 
+
+## Docker Server
+
+Development
+
+```bash
+docker-compose -f .docker/development/docker-compose.yml up --build --remove-orphans
+```
+
+Production
+
+```bash
+docker-compose -f .docker/production/docker-compose.yml up --build --remove-orphans
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

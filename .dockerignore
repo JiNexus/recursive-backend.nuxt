@@ -1,0 +1,10 @@
+# Exclude development-specific directories
+node_modules/
+.git/
+.idea/
+.nuxt/
+
+# Exclude build artifacts and temporary files
+.DS_Store
+*.log
+*.tmp
